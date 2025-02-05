@@ -1,6 +1,7 @@
 import java.util.Scanner;
+package liste_numero1;
 
-class Exo12{
+public class Exo12{
 
     private int table;
     private int rep;

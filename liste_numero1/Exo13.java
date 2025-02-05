@@ -1,18 +1,19 @@
 import java.util.Scanner;
+package liste_numero1;
 
 
-class Exo12{
+public class Exo13{
 
     private int TTC;
-    private int HT;
+    private double HT;
 
-    public int Taxe(){
+    public void Taxe(){
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("donne moi un prix TTC: ");
         this.TTC = scanner.nextInt();
         scanner.close();
-        this.HT = this.TTC*0.20;
+        this.HT = this.TTC-this.TTC*0.20;
         System.out.println("le prix HT est de "+this.HT);
     }
 }

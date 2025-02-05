@@ -1,6 +1,7 @@
 import java.util.Scanner;
+package liste_numero1;
 
-class Exo5{
+public class Exo5{
 
     private String mot;
     private int i;

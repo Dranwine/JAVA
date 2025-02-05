@@ -1,6 +1,7 @@
 import java.util.Scanner;
+package liste_numero1;
 
-class Exo3{
+public class Exo3{
 
     private int nb;
     private int res;

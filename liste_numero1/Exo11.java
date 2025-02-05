@@ -1,4 +1,6 @@
-class Exo11{
+package liste_numero1;
+
+public class Exo11{
 
     private int[] liste;
     private int somme;

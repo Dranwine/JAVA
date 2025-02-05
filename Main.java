@@ -1,8 +1,12 @@
+import liste_numero1.*;
+import liste_numero2.*;
+import mini_app.Menu;
+
 public class Main {
     public static void main(String[] args) {
 
-        Exo13 exo13 = new Exo13();
-        exo13.Taxe();
+        Menu menu = new Menu();
+        menu.decision();
     }
 }
 

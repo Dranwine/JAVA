@@ -1,6 +1,7 @@
 import java.util.Scanner;
+package liste_numero1;
 
-class Exo7{
+public class Exo7{
 
     private int[] listes;
     private int petit;

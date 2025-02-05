@@ -1,7 +1,8 @@
 import java.util.Scanner;
+package liste_numero1;
 
 //n'oublie pas d'utilisé this.
-class Exo6{
+public class Exo6{
 
     private String mot;
     private String mot2;

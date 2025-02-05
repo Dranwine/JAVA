@@ -1,6 +1,7 @@
 import java.util.Scanner;
+package liste_numero1;
 
-class Exo2 {
+public class Exo2 {
 
 private int age;
 private Scanner scanner;

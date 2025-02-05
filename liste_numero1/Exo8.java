@@ -1,4 +1,6 @@
-class Exo8{
+package liste_numero1;
+
+public class Exo8{
 
 private int grand;
 private int[] listes;

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
+package liste_numero1;
 
-class Exo10{
+public class Exo10{
 
     private int[] liste;
     private ArrayList<Integer> nliste;

@@ -1,7 +1,8 @@
 import java.util.Scanner;
+package liste_numero1;
 
 
-class Exo1 {
+public class Exo1 {
 // Etape 1 :  2 nombre via l'utilisateur
 private Integer nb1;
 private Integer nb2;
