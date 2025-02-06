@@ -31,13 +31,17 @@ public class Menu{
         while (!this.choix.equals("0")){
             switch (this.choix){
                 case "1":
-                    System.out.println("OURA");
+                    Calcul_Remise calcul_remise = new Calcul_Remise();
+                    calcul_remise.Calcul();
+                    System.out.println(calcul_remise.toString());
                     break;
                 case "2":
-                    System.out.println("OURA");
+                    Lancer_De_De lancer_de_de = new Lancer_De_De();
+                    lancer_de_de.destin();
                     break;
                 case "3":
-                    System.out.println("OURA");
+                    Jeux_Du_Juste_Prix jeux_du_juste_prix = new Jeux_Du_Juste_Prix();
+                    jeux_du_juste_prix.jeux();
                     break;
                 case "4":
                     System.out.println("OURA");
@@ -52,17 +56,20 @@ public class Menu{
                     System.out.println("OURA");
                     break;
             }
-        }
-
             System.out.print("Voulez-vous revenir au menu ? oui ou non : ");
             this.rep = scanner.nextLine();
 
-            if (this.rep == "oui"){
+            if (this.rep.equals("oui")){
                 this.choix = affiche_menu();
-            }else if (this.rep == "non"){
+            }else if (this.rep.equals("non")){
                 this.choix = fin();
                 System.out.println("*** FIN DU PROGRAMME ***");
+                scanner.close();
             }
+
+
+        }
+
 
 
     }
