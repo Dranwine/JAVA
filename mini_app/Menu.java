@@ -23,7 +23,7 @@ public class Menu{
         System.out.println("7. Gestionnaire de contact");
         System.out.println("**************************************");
         System.out.println("Votre choix : ");
-        return scanner.nextLine();
+        return this.scanner.nextLine();
     }
 
     public void decision(){
@@ -53,11 +53,12 @@ public class Menu{
                     System.out.println("OURA");
                     break;
                 case "7":
-                    System.out.println("OURA");
+                    Gestionnaire gestionnaire = new Gestionnaire();
+                    gestionnaire.decision();
                     break;
             }
             System.out.print("Voulez-vous revenir au menu ? oui ou non : ");
-            this.rep = scanner.nextLine();
+            this.rep = this.scanner.nextLine();
 
             if (this.rep.equals("oui")){
                 this.choix = affiche_menu();
